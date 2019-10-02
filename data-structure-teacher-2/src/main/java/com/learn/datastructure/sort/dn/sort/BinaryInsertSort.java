@@ -3,7 +3,7 @@ package com.learn.datastructure.sort.dn.sort;
 public class BinaryInsertSort {
 	private void sort(int [] a){
 		for(int i = 0;i<a.length;i++){
-			int temp = a[i];//�����뵽ǰ���������е�ֵ
+			int temp = a[i];//????????????????��??
 			int left  = 0;
 			int right = i - 1;
 			int mid = 0;
@@ -16,7 +16,7 @@ public class BinaryInsertSort {
 				}
 			}
 			for(int j = i-1;j>=left;j--){
-				//��left�ұߴ��ֵ������һλ���ȴ�temp����
+				//??left?????????????��?????temp????
 				a[j+1] = a[j];
 			}
 			if(left!=i){
