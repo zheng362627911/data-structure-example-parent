@@ -7,8 +7,10 @@ import com.yeepay.linear.List;
  * call me 201****397
  */
 public class DynamicArrayList<E> implements List<E> {
+
     // 当前元素数量,同时也是写指针，严格保证元素按顺序添加,不存在skip情况
     private int size;
+
     // 元素容器
     private Object[] data;
 
