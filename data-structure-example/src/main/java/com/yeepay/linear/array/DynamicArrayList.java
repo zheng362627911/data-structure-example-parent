@@ -131,7 +131,6 @@ public class DynamicArrayList<E> implements List<E> {
 
     @Override
     public String toString() {
-
         StringBuffer stringBuffer = new StringBuffer("");
         stringBuffer.append("{");
 
@@ -141,6 +140,5 @@ public class DynamicArrayList<E> implements List<E> {
         stringBuffer.delete(stringBuffer.length()-1,stringBuffer.length())
         .append("}");
         return stringBuffer.toString();
-
     }
 }
